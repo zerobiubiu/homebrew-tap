@@ -2,28 +2,28 @@
 class Kenvoy < Formula
   desc "Kenvoy turns TypeScript/JSX declarations into pages, controlled APIs and SQLite-backed apps"
   homepage "https://github.com/zerobiubiu/kenvoy"
-  version "0.4.4"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.4.4/kenvoy-0.4.4-macos-ARM64.zip"
-      sha256 "31ba52ee33601b8563212ebd8a25ff73ea8b47a4efa3b185d5c6e29b3a5856f8"
+      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.5.0/kenvoy-0.5.0-macos-ARM64.zip"
+      sha256 "6bc52a48dbbee49d3b5088dbc3b8f2225586fd541f8854cd359b0e9a8629dbd6"
     end
     on_intel do
-      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.4.4/kenvoy-0.4.4-macos-x86_64.zip"
-      sha256 "04fb8de58480dfcece96218186447fdf90468005e785e19bf61efe9124b35e83"
+      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.5.0/kenvoy-0.5.0-macos-x86_64.zip"
+      sha256 "352e5cb38da612b792575060c4afd0cd6bdebdcd5d950b0c2bca11afb7ec7c62"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.4.4/kenvoy-0.4.4-linux-ARM64.zip"
-      sha256 "67235a90ab6443335d06ee8170b7c33022446a1f41beaee00302da40c122dd53"
+      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.5.0/kenvoy-0.5.0-linux-ARM64.zip"
+      sha256 "b7b9a1085d3da54adaf5f9515fb154255df7b725ef4f6a9644ae2c3b65a5874e"
     end
     on_intel do
-      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.4.4/kenvoy-0.4.4-linux-x86_64.zip"
-      sha256 "45b734e49d46bf23a887fa5794fa28bdbd94dfd836b02b86fe154a32a4a17c07"
+      url "https://github.com/zerobiubiu/kenvoy/releases/download/v0.5.0/kenvoy-0.5.0-linux-x86_64.zip"
+      sha256 "b65bc988e14d7ffd8296491dcd2b897be799dc841b8a96fb90e70aacc7459446"
     end
   end
 
